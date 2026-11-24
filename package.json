@@ -1,0 +1,10 @@
+{
+  "name": "urdf-func-web",
+  "private": true,
+  "version": "0.1.0",
+  "description": "URDF 显示 / 参数修改 / 左右手镜像 / 检查，带登录白名单的 Web 平台",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "python main.py"
+  }
+}
