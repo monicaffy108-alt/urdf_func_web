@@ -21,7 +21,7 @@
     api('/api/events', { method: 'POST', body: { action, detail } }).catch(() => {});
 
   // ---------- 关节节点连接图组件 ----------
-  const X_GAP = 108, Y_GAP = 92, PAD = 56, R = 16;
+  const X_GAP = 128, Y_GAP = 108, PAD = 64, R = 18;
   const JointGraph = {
     props: { tree: Object, stdNames: Array, selected: String },
     emits: ['select'],
